@@ -1,0 +1,23 @@
+
+    /* unvisited link */
+a:link {
+    color: rgb(0, 195, 255);
+}
+    /* visited link */
+a:visited {
+    color: rgb(175, 0, 108);
+}
+    /* mouse over link */
+a:hover {
+    color: hotpink;
+}
+    /* selected link */
+a:active {
+    color: blue;
+}
+.feature-left{
+    float: left;
+    width: 70%;
+    height: 500px;
+    background-color: rgb(180, 180, 180);
+}
