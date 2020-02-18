@@ -1,23 +1,125 @@
+body{
+    font-family: exo;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 1.5;
+    /* font: 15px/1.5 titillium; */
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
 
-    /* unvisited link */
-a:link {
-    color: rgb(0, 195, 255);
+/*Global*/
+/* .container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+} */
+ul{
+    margin: 0;
+    padding: 0;
 }
-    /* visited link */
-a:visited {
-    color: rgb(175, 0, 108);
+
+/* Header */
+header{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding-top: 40px;
+    width: 100%;
+    min-height: 100px;
+    position: sticky;
+    top: 0;
 }
-    /* mouse over link */
-a:hover {
-    color: hotpink;
+
+header a{
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
 }
-    /* selected link */
-a:active {
-    color: blue;
-}
-.feature-left{
+
+
+/* header #branding{
     float: left;
+    margin-left: 80px;
+} */
+
+/* header #branding h1{
+    margin: 0;
+} */
+
+header ul{
+    width: 80%;
+    height: 10px;
+    /* background-color: lightsalmon; */
+    margin: 0 auto;
+    text-align: center;
+    /* list-style: inside; */
+}
+
+header li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px 50px;
+
+
+}
+
+
+header a:hover{
+    color: darkcyan;
+    font-weight: bold;
+}
+
+
+#feature-left{
     width: 70%;
-    height: 500px;
-    background-color: rgb(180, 180, 180);
+    height: 550px;
+    background-image: url(..//VFX-Portfolio/Images/jet.jpeg);
+    background-size: cover;
+    /* background-position: -90px 0px; */
+    float: left;
+}
+#feature-left h1{
+    font-family: abril fatface;
+    font-weight: 100;
+    color: lavenderblush;
+    text-align: center;
+    font-size: 700%;
+    margin: 0;
+    padding: 0;
+}
+
+#feature-left span{
+    font-family: great vibes;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 100;
+}
+
+#feature-left p{
+    font-family: abril fatface;
+    color: lavenderblush;
+    text-align: center;
+    font-size: 450%;
+    margin-top: -50px;
+    margin-left: 150px;
+    position: relative;
+}
+
+#feature-right{
+    width: 30%;
+    height: 550px;
+    background-color: #98b6b4;
+    float: left;
+}
+#feature-right img{
+    margin: 30px 140px;
+}
+
+#feature-right h1{
+    font-family: abril fatface;
+    font-weight: 100;
+    text-align: center;
 }
