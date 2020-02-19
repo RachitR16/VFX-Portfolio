@@ -162,6 +162,7 @@ a:hover
 #about{
     display: inline-block;
     width: 100%;
+    margin-top: 30px;
     /* height: 200px; */
     /* background-color: rgb(144, 179, 167); */
 }
@@ -169,12 +170,12 @@ a:hover
     font-family: abril fatface;
     font-weight: 100;
     margin-top: 30px;
-    margin-left: 7%;
+    margin-left: 5%;
     color: #0060B6;
 }
 #about p{
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-bottom: 40px;
     font-size: 20px;
 }
@@ -190,10 +191,10 @@ a:hover
 
 #soft{
     margin-top: 60px;
-    margin-left: 40px;
+    margin-left: 42px;
 }
 #soft img{
-    margin-left: 12px;
+    margin-left: 14px;
 }
 
 #credits{
